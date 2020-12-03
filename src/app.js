@@ -39,7 +39,7 @@ app.put("/repositories/:id", (request, response) => {
 
   if(repositoryIndex < 0) {
     return response.status(400).json({
-      error: "Repository not found in here..."
+      error: "Repository not found in here.."
     });
   }
 
